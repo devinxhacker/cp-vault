@@ -66,7 +66,7 @@ function App() {
               <Route path="/auth/signup" element={<Auth authType={"signup"} />} />
               <Route path="/auth/logout" element={<Auth authType={"logout"} />} />
               <Route path="/auth/*" element={<Navigate to="/auth/login" />} />
-              <Route path="/auth/xsignup/admin/registration" element={<Auth authType={"adminsignup"} />} />
+              <Route path="/auth/register-cpvault/devinxauthio/789632145" element={<Auth authType={"adminsignup"} />} />
               <Route path="/404/*" element={<NotFound />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
